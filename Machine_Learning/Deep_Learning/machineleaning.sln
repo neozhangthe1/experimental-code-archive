@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "deeplearning", "deeplearning\deeplearning.pyproj", "{3CD18445-3D08-4DE4-8BE6-9C22AE370824}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "onlinehdp", "onlinehdp\onlinehdp.pyproj", "{3C97CC62-24C2-4468-AEB4-5FC823D97E85}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "onlinelda", "onlinelda\onlinelda.pyproj", "{E868A7B6-9DBF-4FAF-83AE-AE08C7EBBCA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD18445-3D08-4DE4-8BE6-9C22AE370824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD18445-3D08-4DE4-8BE6-9C22AE370824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD18445-3D08-4DE4-8BE6-9C22AE370824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD18445-3D08-4DE4-8BE6-9C22AE370824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C97CC62-24C2-4468-AEB4-5FC823D97E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C97CC62-24C2-4468-AEB4-5FC823D97E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C97CC62-24C2-4468-AEB4-5FC823D97E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C97CC62-24C2-4468-AEB4-5FC823D97E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E868A7B6-9DBF-4FAF-83AE-AE08C7EBBCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E868A7B6-9DBF-4FAF-83AE-AE08C7EBBCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E868A7B6-9DBF-4FAF-83AE-AE08C7EBBCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E868A7B6-9DBF-4FAF-83AE-AE08C7EBBCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

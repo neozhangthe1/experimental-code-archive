@@ -1,0 +1,96 @@
+﻿Build started 6/5/2013 8:50:51 AM.
+     1>Project "E:\OpenCRF_partial_labeled_parallel_nou\OpenCRF\OpenCRF.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Config.cpp CRFModel.cpp DataSet.cpp FactorGraph.cpp OpenCRF_Main.cpp Transmitter.cpp Util.cpp
+         Util.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(38): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+         Transmitter.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(43): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(54): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(73): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\transmitter.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\transmitter.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+         OpenCRF_Main.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(43): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(54): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(73): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.h(58): warning C4018: '<' : signed/unsigned mismatch
+         FactorGraph.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.h(58): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\constant.h(14): warning C4091: 'static ' : ignored on left of 'Enum' when no variable is declared
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(201): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.cpp(288): warning C4018: '<' : signed/unsigned mismatch
+         DataSet.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(43): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(54): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(73): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\constant.h(14): warning C4091: 'static ' : ignored on left of 'Enum' when no variable is declared
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.cpp(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+         CRFModel.cpp
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(43): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(54): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\dataset.h(73): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\factorgraph.h(58): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\constant.h(14): warning C4091: 'static ' : ignored on left of 'Enum' when no variable is declared
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(199): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(462): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(485): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(758): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(799): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(845): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(891): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(900): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(902): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\crfmodel.cpp(909): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+         Config.cpp
+         Generating Code...
+     1>e:\opencrf_partial_labeled_parallel_nou\opencrf\util.cpp(60): warning C4700: uninitialized local variable 'id' used
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCRF_partial_labeled_parallel_nou\Debug\OpenCRF.exe" /INCREMENTAL /NOLOGO ..\lib\f2c.lib ..\lib\msmpi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenCRF_partial_labeled_parallel_nou\Debug\OpenCRF.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenCRF_partial_labeled_parallel_nou\Debug\OpenCRF.lib" /MACHINE:X86 Debug\Config.obj
+         Debug\CRFModel.obj
+         Debug\DataSet.obj
+         Debug\FactorGraph.obj
+         Debug\OpenCRF_Main.obj
+         Debug\Transmitter.obj
+         Debug\Util.obj
+         OpenCRF.vcxproj -> E:\OpenCRF_partial_labeled_parallel_nou\Debug\OpenCRF.exe
+     1>Done Building Project "E:\OpenCRF_partial_labeled_parallel_nou\OpenCRF\OpenCRF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.67
